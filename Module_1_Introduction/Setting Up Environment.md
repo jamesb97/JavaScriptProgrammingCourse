@@ -117,3 +117,21 @@ It is crucial to follow a few essential steps to ensure the proper management an
 - **Session persistence**: During an active session, your data remains accessible. However, it's important to note that if your session expires or you log out, you will need to clone the repository again to resume work.
 
 By adhering to these guidelines, can maintain a well-organized and efficient GitHub repository, ensuring your work is securely stored and easily accessible to you and your collaborators.
+
+## Step 5: Check the output
+
+1. To view how your HTML page will be displayed in the browser, use the built-in Live Server extension. Select the file **sample_folder.html** within **SampleFolder** folder and right click on that file and choose 'Open with Live Server'.
+
+2. A notification will appear at the bottom right, indicating that the server has started on port 5500.
+
+3. Then, click the Skills Network button on the left. This action will open the "Skills Network Toolbox". Next, select "Launch Application". Once there, enter port number **5500** in "Application Port".
+
+4. It will open your default browser, where you will see the **SampleFolder** name.
+
+5. Click on that folder name. It will show the available files within that folder.
+
+6. Then click on the **sample_folder.html** file, as shown below.
+
+7. The front page will open, allowing you to see the output.
+
+Note: Remember to save your files regularly. If you edit your code, refresh the browser, which runs through port number 5500. This way, there is no need to launch the application again. Also, push all the latest changes of the code in the GitHub repository as well by performing git add, git commit, and git push commands.
