@@ -54,3 +54,23 @@ let authenticationStatus = isAuthenticated
 console.log("Authentication Status:", authenticationStatus);
 
 document.write("<h1>Authentication Status:</h1>" + authenticationStatus);
+
+let personRole = "Employee";
+let dietaryServiceMessage;
+
+if (personRole === "Employee") {
+  dietaryServiceMessage =
+    "You are authorized to have access to Dietary Services.";
+} else if (personRole === "Enrolled Member") {
+  dietaryServiceMessage =
+    "You are authorized to have access to Dietary Services and one-on-one interaction with a dietician.";
+} else if (personRole === "Subscriber") {
+  dietaryServiceMessage =
+    "You are authorized to have partial access to facilitate Dietary Services only.";
+} else {
+  dietaryServiceMessage =
+    "You need to enroll or at least subscribe first to avail this facility.";
+}
+
+console.log("Dietary Services Eligibility:", dietaryServiceMessage);
+document.write("<h1>Dietary Services Eligibility:</h1>" + dietaryServiceMessage);
